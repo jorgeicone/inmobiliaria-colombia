@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inmobiliaria Colombia | Tu Hogar Ideal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 font-sans">
+  <nav class="flex justify-between items-center py-6 px-10 bg-white shadow-sm">
+    <div class="text-2xl font-bold text-blue-800">Inmo<span class="text-yellow-500">CO</span></div>
+    <div class="space-x-8 hidden md:flex">
+      <a href="#" class="hover:text-blue-600 transition">Comprar</a>
+      <a href="#" class="hover:text-blue-600 transition">Arrendar</a>
+      <a href="#" class="hover:text-blue-600 transition">Proyectos Nuevos</a>
+    </div>
+    <button class="bg-blue-700 text-white px-6 py-2 rounded-full hover:bg-blue-800 transition">Publicar Inmueble</button>
+  </nav>
+
+  <section class="relative h-[80vh] flex items-center justify-center text-white">
+    <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1600&q=80" class="absolute inset-0 w-full h-full object-cover brightness-50" alt="Casa en Colombia">
+    <div class="relative z-10 text-center px-4">
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-4">Encuentra tu lugar en Colombia</h1>
+      <p class="text-xl mb-8">Desde apartamentos en El Poblado hasta casas en la Sabana de Bogotá.</p>
+      <div class="bg-white p-4 rounded-lg shadow-xl flex flex-col md:flex-row gap-4 text-gray-800 max-w-4xl mx-auto">
+        <input type="text" placeholder="¿En qué ciudad buscas?" class="flex-1 p-3 border-b-2 md:border-b-0 md:border-r-2 border-gray-200 outline-none">
+        <select class="flex-1 p-3 border-b-2 md:border-b-0 md:border-r-2 border-gray-200 outline-none bg-white">
+          <option>Tipo de inmueble</option>
+          <option>Apartamento</option>
+          <option>Casa</option>
+          <option>Oficina</option>
+        </select>
+        <button class="bg-yellow-500 text-blue-900 font-bold px-8 py-3 rounded-md hover:bg-yellow-400 transition-all transform hover:scale-105">
+          <i class="fa-solid fa-magnifying-glass mr-2"></i>Buscar Ahora
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 px-10 text-center">
+    <h2 class="text-3xl font-bold mb-12 text-gray-800">¿Por qué confiar en nosotros?</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition">
+        <i class="fa-solid fa-shield-halved text-4xl text-blue-600 mb-4"></i>
+        <h3 class="font-bold text-xl mb-2">Trámites Seguros</h3>
+        <p class="text-gray-600">Te acompañamos en notarías y estudios de títulos sin estrés.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition">
+        <i class="fa-solid fa-camera-retro text-4xl text-blue-600 mb-4"></i>
+        <h3 class="font-bold text-xl mb-2">Tour Virtual</h3>
+        <p class="text-gray-600">Visita la propiedad desde tu sofá con nuestra tecnología 360°.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition">
+        <i class="fa-brands fa-whatsapp text-4xl text-green-500 mb-4"></i>
+        <h3 class="font-bold text-xl mb-2">Atención Inmediata</h3>
+        <p class="text-gray-600">Agentes listos para responderte en menos de 5 minutos.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
